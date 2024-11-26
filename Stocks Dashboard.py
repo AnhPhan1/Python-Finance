@@ -1,13 +1,11 @@
-# Source: @DeepCharts Youtube Channel (https://www.youtube.com/@DeepCharts)
-
+pip install plotly.express as px
+pip install plotly.graph_objects as go
+pip install pytz
+pip install ta
 import streamlit as st
-import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
 import yfinance as yf
 from datetime import datetime, timedelta
-import pytz
-import ta
 
 ##########################################################################################
 ## PART 1: Define Functions for Pulling, Processing, and Creating Techincial Indicators ##
