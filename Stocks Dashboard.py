@@ -1,7 +1,7 @@
-pip install plotly.express as px
-pip install plotly.graph_objects as go
-pip install pytz
-pip install ta
+import plotly.express as px
+import plotly.graph_objects as go
+import pytz
+import ta
 import streamlit as st
 import pandas as pd
 import yfinance as yf
